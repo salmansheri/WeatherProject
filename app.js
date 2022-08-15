@@ -12,7 +12,7 @@ app.post("/", function (req, res) {
   console.log("post request ");
   var place = req.body.city;
   var apiKey = "c7c1549c799f6fbffb884c6e181f2fa7";
-  var units = "metric";
+  var units = "metrgit ic";
   var url =
     "https://api.openweathermap.org/data/2.5/weather?q=" +
     place +
